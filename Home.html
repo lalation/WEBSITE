@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madoka Magica</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b4761de563.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="https://i.postimg.cc/x8xsjtqC/madoks-2-removebg-preview-1.png" style="height: 60px; width: 60px;" class="logo">  
+            <ul id="sidemenu">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Contact Us.html">Contact Us</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    </div>  
+    </div>
+    <div class ="intro-block">
+    <section class="intro-text">
+        <p style="font-size: 40px;">Fashion Desginer</p>
+        <h1>Hi, I'm Olaitan Soetan From Nigeria</h1> 
+
+        </section>
+    <section class="intro-image">
+        <img src="https://i.postimg.cc/7L6VhMDV/cheese2-removebg-preview.png" class="background-image" placeholder="Profile-image">
+        </section>
+        </div>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"; 
+
+    }
+     function closemenu(){
+        sidemenu.style.right = "-200px"; 
+    }
+</script>
+</head>
+</body>

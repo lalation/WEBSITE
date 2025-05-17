@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madoka Magica</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b4761de563.js" crossorigin="anonymous"></script>
+    </head>
+<body style="background-color: rgb(255, 248, 181) ; background-image: url(https://i.postimg.cc/WpBX2WNd/yellow-removebg-preview.png); background-repeat: repeat; background-size: 5%;"></body>
+    <div id="header">
+    <div class="container">
+        <nav>
+      <ul id="sidemenu">
+                <li><a style="color: rgb(59, 36, 0);" href="Home.html">Home</a></li>
+                <li><a style="color: rgb(59, 36, 0);" href="About Us.html">About Us</a></li>
+                <li><a style="color: rgb(59, 36, 0);" href="Projects.html">Projects</a></li>
+                <li><a style="color: rgb(59, 36, 0)" href="Contact Us.html">Contact Us</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+    <div class="services">
+    <div class="container">
+     <div class="empty-image">
+    <h1 class="sub-title" style="font-size: 70px; margin-left: 30%; margin-right: 15%; color: rgb(59, 36, 0); font-size: 100px;">My Projects </h1>
+        <div class="myprojects">
+            <div class="projects">
+            <h2 style="color: rgb(59, 36, 0); font-size: 60px;">Madoka</h2>
+            <img src="https://i.postimg.cc/HkPMZGDw/madokaa.jpg" style=" width: 40%; height: 20%;">
+            <p style="color: rgb(59, 36, 0); font-size: 30px;"> This dress was designed after the anime character Madoka, from the anime Madoka Magica. <br>
+                 She wears a red choker around her neck, which is tied in a bow in the back. <br>
+                 The front of her torso has a pale-yellow segment surrounded by white frills with a white placket that has red buttons. 
+                 <br>And white puffy sleeves with pink and white frilly ends held by red sleeve cuffs. 
+                 <br>In between her shoulder blades and just below her neck, there is a heart-shaped hole in the back of her dress.
+                 <br> Her skirt's ends are akin to a flower's petals; there are seven separate petal-shaped segments of her dress, 
+                 <br> it has a red brim and white flower-like designs on it, lay atop a white donut shaped petticoat, which is frilly underneath.</p>
+                <div class="layer">
+            <a href="https://madoka.fandom.com/wiki/Madoka_Kaname"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="projects">
+            <h2 style="color: rgb(59, 36, 0); font-size: 40px;">Homura</h2>
+            <img src="https://i.postimg.cc/VNrC27m3/homura.jpg" style=" width: 40%; height: 20%">  
+            <p style="color: rgb(59, 36, 0);  font-size: 30px;"> This dress was designed after the anime character Homura, from the anime Madoka Magica. <br> 
+            she wears a white, long-sleeved coat that splits in the center near the end of the sleeve, 
+            <br> which is lined by a black trim. She sports a black, collared shirt, 
+            <br> and the collar is lined with white along the edges. 
+            <br> She also has a dark purple bow with long tails in the center of the collar.
+            <br> Around this, she has another larger dull, light purple seifuku-style collar,
+            <br> which has a black diamond shape on the back of it, all of which is over a black, long-sleeved shirt.
+            <br> The skirt is a light almost grey purple with a white, ruffled trim.</p>
+            <div class="layer">
+            <a href="https://madoka.fandom.com/wiki/Homura_Akemi"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="projects">
+            <h2 style="color: rgb(59, 36, 0); font-size: 40px;">Sayaka</h2>
+            <img src="https://i.postimg.cc/1zkqSpz4/sayaka.jpg" style=" width: 40%; height: 20%;">   
+            <p style="color: rgb(59, 36, 0);  font-size: 30px;"> This dress was designed after the anime character Sayaka, from the anime Madoka Magica. <br>
+                 Her clothing consists of a cobalt blue breast piece with yellow trimming and thin white frills along with a white corset that has yellow diamond shaped buttons and yellow trimming with thin frills, <br>
+                       a darkish cadet blue asymmetrical pleated skirt with a white brim held up by a dark blue belt with a yellow buckle and a cobalt blue skirt that is split into square shaped segments, 
+                  <br> a white thigh-long cape and 4 pairs of gloves dull prussian blue opera gloves with similarly coloured arm bands,
+                  <br> and wrist length white gloves with blue cuffs.
+            </p>
+            <div class="layer">
+            <a href="https://madoka.fandom.com/wiki/Sayaka_Miki"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        <br>
+        <br>
+        <br>
+         <div class="projects">
+            <h2 style="color: rgb(59, 36, 0); font-size: 40px;">Mami</h2>
+            <img src="https://i.postimg.cc/rscR0Mxk/mami.jpg" style=" width: 40%; height: 20% ;"> 
+            <p style="color: rgb(59, 36, 0);  font-size: 30px;" > This dress was designed after the anime character Mami, from the anime Madoka Magica. 
+                <br> she wears a white blouse with a yellow placket-like line in the middle, 
+                <br> puffy sleeves and white arm warmers, 
+                <br> a deep oak brown corset with white trims, brown fasteners with a white ribbon on her waist, 
+                <br> and a dull yellow ruffled skirt with a deep oak brown trim. 
+                <br> She also has a brown beret like hat with white fur coming out of it, 
+                <br> as well as puce leggings with thin, vertical stripes, deep oak brown fingerless gloves</p>
+            <div class="layer">
+            <a href="https://madoka.fandom.com/wiki/Mami_Tomoe"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        <br>
+        <br>
+        <br>
+         <div class="projects">
+            <h2 style="color: rgb(59, 36, 0);" >Kyoko</h2>
+            <img src= "https://i.postimg.cc/nrkjqgGQ/sakura.jpg" style=" width: 40%; height: 20%;"> 
+            <p style="color: rgb(59, 36, 0); font-size: 40px;  font-size: 30px;"> This dress was designed after the anime character Kyoko, from the anime Madoka Magica. 
+                <br> she wears a maroon dress with an opening for her soul gem and a mandarin collar attached to it with white accents. 
+                <br> Her soul gem is at her upper chest. 
+                <br> The borders of her dress are covered with thick white frills that cover the opening of her dress and the back.
+                <br> She wears white bicep length sleeves with black buttoned cuffs around her wrists. Underneath,
+                <br> she wears a pleated mauve skirt and a black corset with white detailing</p>
+            <div class="layer">
+            <a href="https://madoka.fandom.com/wiki/Kyoko_Sakura"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+    </div>
+ </div>
+ </div>
+ </div>
+
+ <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"; 
+
+    }
+     function closemenu(){
+        sidemenu.style.right = "-200px"; 
+    }
+</script>
+</body>
+</html>
