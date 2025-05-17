@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madoka Magica</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b4761de563.js" crossorigin="anonymous"></script>
+</head>
+<body style="background-color:  rgb(233, 244, 255); background-image:url(https://i.postimg.cc/52ZRF7gQ/bluey-removebg-preview.png); background-repeat: repeat; background-size: 5%;">
+    <div class="container">
+        <nav>
+      <ul id="sidemenu">
+                <li><a style="color: #002a69;" href="Home.html">Home </a></li>
+                <li><a style="color: #002a69;" href="About Us.html">About Us</a></li>
+                <li><a style="color: #002a69;" href="Projects.html">Projects</a></li>
+                <li><a style="color: #002a69;" href="Contact Us.html">Contact Us</a></li>
+                <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+    <div class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <div class="about-col-2">
+                            <h1 style="font-size: 70px; color: #002a69;">About Us</h1>
+                            <p style="font-size: 40px; margin-top: 10%;"> Hello there! <br>
+
+<br> My name is Olaitan Soetan and I am a fashion designer living in Lagos, Nigeria. 
+<br> When I tell people i’m a designer they’re usually very confused as to what I actually do. 
+<br> They often imagine me running around with scissors, cutting fabric and sewing samples like Project Runway.
+<br> In actuality, I make costumes for people from different animates series they have watched.
+<br> My goal is always to make a costume that a customer would be excited to wear,
+<br> helping them really trasform into the character.
+<br> Who knows maybe I'll help your next transformation!
+   </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"; 
+
+    }
+     function closemenu(){
+        sidemenu.style.right = "-200px"; 
+    }
+</script>
+</body>
+</html>
